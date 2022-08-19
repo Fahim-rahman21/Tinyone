@@ -1,0 +1,66 @@
+pt sans
+    regular
+    bold
+font awesome
+halveticaNeue 
+    bold 
+    p {
+        color #898989
+    }
+
+   font-family: 'PT Sans', sans-serif;
+
+logo {
+    color #010101
+}
+last {
+    color- #fcdb00 [ yowllo ]
+}
+responsive {-------
+xxl===== 1440 ----- ...
+xl====== 1200
+lg====== 1024
+md====== 768
+sm====== 576
+col===== 320
+ 
+header (
+
+    
+
+
+)
+
+}
+<header>
+        <div class="container">
+            <!-- nav bar start  -->
+            <nav class="navbar navbar-expand-lg navbar-light c_nav">
+                <div class="container-fluid p-0">
+                    <!-- logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img class="img-fluid logo" src="imge/logo.png" alt="tinyone" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="nav_custom"
+                        aria-controls="nav_custom" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- menu  -->
+                    <div class="collapse navbar-collapse menu" id="nav_custom">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Support</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- nav bar end  -->
+        </div>
+    </header>
