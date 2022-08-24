@@ -1,36 +1,86 @@
 /* common start */
-body{
-    font-family: 'PT Sans',sans-serif;
+body {
+    font-family: 'PT Sans', sans-serif;
     font-size: 14px;
     font-weight: 400;
     color: #898989;
 }
+
 /* common end */
 /* header start  */
-header{
+header {
     background-color: #fcdb00;
-    padding: 15px 0;
+    padding: 20px 0;
 }
-.c_nav{
 
-}
-.logo{
+.c_nav {}
 
-}
-.menu{
+.logo {}
 
-}
-.menu ul li a{
+.menu {}
+
+.menu ul li a {
     font-family: 'PT Sans', sans-serif !important;
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 22px !important;
+    font-weight: 700 !important;
     color: #010101 !important;
-    padding: 0 35px !important;
+    padding: 0 30px !important;
 }
+
 .menu ul li:last-child a {
     padding-right: 0 !important;
 }
-.menu ul li a :hover{
+
+.menu ul li a :hover {
     color: white !important;
 }
+
 /* header end  */
+/* slider start  */
+.slider {
+    background-color: #fcdb00;
+    padding-bottom: 100px;
+}
+
+.t_slider { 
+    margin-top: 50px;
+}
+.t_slider h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 400;
+    color: #010101;
+}
+.t_slider h2{
+        margin: 20px 0;
+        font-size: 20px;
+        font-weight: 400;
+        color: #313841;
+}
+.t_slider p{
+    margin-bottom: 40px;
+    font-size: 16px;
+    color: #555555;
+}
+
+.s_icon {
+    
+}
+.s_icon ul li {
+    margin-right: 30px !important;
+}
+.s_icon ul li i{
+    font-size: 42px;
+    color: #010101;
+    transition: .33s;
+   
+}
+.s_icon ul li i :hover {
+    transform: scale(.8);
+    color: white;
+}
+
+.i_imge {}
+.i_imge img {}
+
+/* slider end  */
